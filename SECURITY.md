@@ -1,6 +1,6 @@
 # Security Policy
 
-Confidential vulnerability reporting currently works by embedding text encrypted to [OpenPGP Key](https://keys.openpgp.org/vks/v1/by-fingerprint/57CA87DDE11190DEA2446B4755D979432731D4EE) represented via gnupg ascii armor in the body of a standard issue template for security vulnerabilities under the [issues tab](../issues) this is explained under the [Reporting a vulnerability](#reporting-a-vulnerability) section.
+Confidential vulnerability reporting currently works by embedding text encrypted to [OpenPGP Key](https://keys.openpgp.org/vks/v1/by-fingerprint/57CA87DDE11190DEA2446B4755D979432731D4EE) represented via gnupg ascii armor in the body of a standard issue template for security vulnerabilities under the issues tab this is explained under the [Reporting a vulnerability](#reporting-a-vulnerability) section.
 
 ## Supported Versions
 
@@ -11,7 +11,7 @@ Confidential vulnerability reporting currently works by embedding text encrypted
 
 ## Reporting a Vulnerability
 
-1. Go to [`Issues`](../issues)
+1. Go to `Issues`
 2. Create a new issue and choose the "Security Vulnerability" template
 3. add a non revealing title to the issue or keep the default entry
 4. On your local pc write an .md file or any other .txt file and encrypt it to [OpenPGP Key](https://keys.openpgp.org/vks/v1/by-fingerprint/57CA87DDE11190DEA2446B4755D979432731D4EE) after importing the openpgp key
